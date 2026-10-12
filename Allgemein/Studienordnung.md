@@ -4,6 +4,7 @@
 - Für Prüfungen muss man sich anmelden, auch für Wiederholungsprüfungen
 - Für Praktika im Vorsemester registrieren
 
-###
+### 1. Semester
+- 
 ### Weiteres
 - Prüfungen kann man beliebig oft wiederholen, aber nur, wenn nicht bestanden
