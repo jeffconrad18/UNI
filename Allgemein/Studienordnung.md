@@ -36,3 +36,11 @@
 
 ![[PXL_20261012_083730674.jpg]]
 
+### Links
+https://www.cit.tum.de/cit/studium/studierende/pruefungsangelegenheiten-module/
+
+https://www.cit.tum.de/cit/studium/studiengaenge/bachelor-informatik/
+
+https://www.cit.tum.de/cit/studium/studierende/beratung/informatik/tipps/
+
+https://www.cit.tum.de/fileadmin/w00byx/cit/Studium/Im_Studium/Studienberatung_Informatik/leitfaden-de_2016Jun22.pdf
