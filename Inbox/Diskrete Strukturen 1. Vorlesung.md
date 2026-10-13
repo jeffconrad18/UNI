@@ -22,4 +22,10 @@
 - Notenbonus insgesamt 2/3 aller Punkte erreichen und 40 % aller Punkte vor Weihnachten
 
 ### Klausuren
-15.
+- Endterm: 15. Februar 17 - 19 Uhr
+- Nachholklausur: 2. April 17 - 19 Uhr
+- Anmeldung online
+- Hilfsmittel:
+	- 1 beidseitig selbst handbeschriebenes DIN A4 Blatt (nicht gedruckt)
+	- nicht programmierbarer Taschenrechner
+	
