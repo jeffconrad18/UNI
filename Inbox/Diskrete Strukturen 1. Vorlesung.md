@@ -17,3 +17,4 @@ Hausaufgaben
 - Abgaben nicht verpflichtend, aber empfohlen
 - Notenbonus nur für aktuelles Semester
 - Hausaufgaben in 3er oder 4er Teams bearbeiten
+- Handschriftlich abgeben
