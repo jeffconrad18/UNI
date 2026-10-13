@@ -37,3 +37,12 @@
 - Übungen besuchen
 - Arbeit nicht am Ende machen
 - Aufgaben nicht von LLMs lösen
+
+
+## Vorlesungen
+### Überblick
+- Grundlagen
+- Graphentheorie
+- Kombinatorik
+- Logik
+- Algebra
