@@ -15,4 +15,5 @@
 Hausaufgaben
 - zwei Wochen Zeit bis freitags 14 Uhr abgeben um einen Notenbonus (max 0,3) zu erlangen
 - Abgaben nicht verpflichtend, aber empfohlen
-	- Notenbou
+	- Notenbonus nur für aktuelles Semester
+	- 
