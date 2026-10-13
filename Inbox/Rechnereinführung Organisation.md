@@ -8,6 +8,11 @@
 ### Übungen
 - Beginn Tutorübungen Montag 19. Oktober
 - Wöchentliche Hausaufgaben via Artemis
+- Kleine Gruppen geleitet von studentischen Tutoren (Inhalte unterschiedlich von Zentralübung)
+- Material über Moodle: http://moodle.tum.de/-> IN-0004
+(Lösungsvorschläge zum Übungsblatt eine Woche später)
+- Anmeldung in TUM-Online notige: BITTE SELBST ANMELDEN
+- Nähere Angaben: Freitag in der ZÜ
 ### Klausuren
 - 120 Minuten
 - Alles (deutsche) ist klausurrelevant
@@ -16,8 +21,16 @@
 	- Referenzmaterial wird zur Verfügung gestellt
 - Endterm: voraussichtlich Freitag, 12.02.2027, 08:00 – 10:00 Uhr (Anmeldezeitraum: 16.11.2026 – 15.01.2027)
 - Retake: voraussichtlich Donnerstag, 01.04.2027, 11:00 – 13:00 Uhr (Anmeldezeitraum: 08.03.2027 – 22.03.2027) 
-### Ausblick
-- Praktikum: 3er Gruppen im nächsten Semester
+### Ausblick ERA Praktikum (SoSe)
+* Voraussetzung
+  * Erfolgreiches Bestehen der ERA-Klausur
+  * Verfahren wird zu einem späteren Zeitpunkt noch genauer erläutert
+* Durchführungszeitraum
+  * Projekte im SS27
+  * Anmeldung nach Bekanntgabe der ERA-Klausurnoten
+* Gruppenaufgaben
+  * Systemprogrammierung und Optimierungen
+  * Prozessor-Entwicklung
 
 ![[PXL_20261013_141350803.jpg]]
 
@@ -25,3 +38,6 @@
 - Maschinennahe Repräsentierung von Daten und Programmen
 - Struktur von Rechensystemen
 - Umsetzung von Komponenten
+- Moderne Rechnerarchitekturen
+
+![[Pasted image 20261013163400.png]]
