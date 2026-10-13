@@ -16,7 +16,7 @@
 - zwei Wochen Zeit bis freitags 14 Uhr abgeben um einen Notenbonus (max 0,3) zu erlangen
 - Abgaben nicht verpflichtend, aber empfohlen
 - Notenbonus nur für aktuelles Semester
-- Hausaufgaben in 3er oder 4er Teams bearbeiten
+- Hausaufgaben in festen 3er oder 4er Teams bearbeiten
 - Handschriftlich beim Tutor abgeben
 - Korrektur mit Ampelsystem: grün/gelb (1 Punkt), rot (0 Punkte)
 - Notenbonus insgesamt 2/3 aller Punkte erreichen und 40 % aller Punkte vor Weihnachten
@@ -30,3 +30,10 @@
 	- nicht programmierbarer Taschenrechner
 - Nach Bestehen keine Notenverbesserung
 
+### Ratschläge
+- Vorlesungen gehen
+- Selbstständig Verständnis- und Wissenslücken schließen
+- Hausaufgaben regelmäßig machen
+- Übungen besuchen
+- Arbeit nicht am Ende machen
+- Aufgaben nicht von LLMs lösen
