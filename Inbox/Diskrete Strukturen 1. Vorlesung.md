@@ -18,4 +18,5 @@ Hausaufgaben
 - Notenbonus nur für aktuelles Semester
 - Hausaufgaben in 3er oder 4er Teams bearbeiten
 - Handschriftlich abgeben
-- Korrektur mit Ampelsystem: grün/gelb/rot
+- Korrektur mit Ampelsystem: grün/gelb (1 Punkt), rot (0 Punkte)
+- Notenbonus insgesamt 2/3 aller Punkte erreichen und 40 % aller Punkte vor Weihnachten
