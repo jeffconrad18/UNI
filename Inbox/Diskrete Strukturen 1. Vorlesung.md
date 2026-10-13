@@ -28,4 +28,4 @@
 - Hilfsmittel:
 	- 1 beidseitig selbst handbeschriebenes DIN A4 Blatt (nicht gedruckt)
 	- nicht programmierbarer Taschenrechner
-	
+- Nach Bestehen keine Notenverbesserung
