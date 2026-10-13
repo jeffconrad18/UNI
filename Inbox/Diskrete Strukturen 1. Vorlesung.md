@@ -3,7 +3,7 @@
 - 630 Studierende, früher doppelt so groß
 - alle Vorlesungen von Anfang an online
 - Bücher sind optimal
-- E-Mails nur an ds2627@agt.cit.tum.de
+- E-Mails nur an ds2627@agt.cit.tum.de > AI-Tutor kann aber auch
 
 Übungen
 - jeden Freitagabend Übungsblatt mit Tutor- und Hausaufgaben
@@ -18,3 +18,4 @@ Hausaufgaben
 - Notenbonus nur für aktuelles Semester
 - Hausaufgaben in 3er oder 4er Teams bearbeiten
 - Handschriftlich abgeben
+- Korrektur mit Ampelsystem: grün/gelb/rot
