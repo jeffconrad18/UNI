@@ -17,7 +17,7 @@
 - Abgaben nicht verpflichtend, aber empfohlen
 - Notenbonus nur für aktuelles Semester
 - Hausaufgaben in 3er oder 4er Teams bearbeiten
-- Handschriftlich abgeben
+- Handschriftlich beim Tutor abgeben
 - Korrektur mit Ampelsystem: grün/gelb (1 Punkt), rot (0 Punkte)
 - Notenbonus insgesamt 2/3 aller Punkte erreichen und 40 % aller Punkte vor Weihnachten
 
