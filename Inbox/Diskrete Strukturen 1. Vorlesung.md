@@ -9,4 +9,10 @@
 - jeden Freitagabend Übungsblatt mit Tutor- und Hausaufgaben
 	- Tutoraufgaben wiederholen und ergänzen Stoff aus aktuellen Vorlesungen
 	- Hausaufgaben greifen größenteils die Tutorenaufgaben nochmals auf
-- Für Tutorien online anmelden
+- Für Tutorien online anmelden bis 14 Uhr, dann Losverfahren
+- Vor Tutorien jeweils mit Aufgabenstellung vertraut machen
+
+Hausaufgaben
+- zwei Wochen Zeit bis freitags 14 Uhr abgeben um einen Notenbonus (max 0,3) zu erlangen
+- Abgaben nicht verpflichtend, aber empfohlen
+	- Notenbou
