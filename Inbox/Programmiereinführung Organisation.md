@@ -1,0 +1,1 @@
+KI nur zum Erklären, aber keine Abgaben mit KI
