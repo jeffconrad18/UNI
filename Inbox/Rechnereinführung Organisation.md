@@ -11,8 +11,8 @@
 - Kleine Gruppen geleitet von studentischen Tutoren (Inhalte unterschiedlich von Zentralübung)
 - Material über Moodle: http://moodle.tum.de/-> IN-0004
 (Lösungsvorschläge zum Übungsblatt eine Woche später)
-
-### Hausaufgaben
+### [[zue_00_organisatorisches.pdf#page=6|Hausaufgaben]]
+- Einzelarbeit
 - Anmeldung zu „Einführung in die Rechnerarchitektur (WS26/27)“1 über „Course Enrollment“ auf https://artemis.tum.de/courses/596 ab jetzt 
 - Normal eine Hausaufgabe pro Woche 
 - Release am Freitag 16:00, Abgabe Sonntag 23:59 Uhr (10 Tage Zeit)
@@ -20,7 +20,14 @@
 - Notenbonus um eine Notenstufe (0.3/0.4) ab 80 % der erreichbaren Punkte 
 - Notenbonus nur auf bereits bestandene Klausuren 
 - Außerdem: unregelmäßige Bonusaufgaben und -punkte
-### Klausuren
+- Ziel: Motivation und aktives Arbeiten während des gesamten Semesters, sowie Übung für die Klausur
+- Bis zur Deadline unendliche viele Abgabeversuche 
+- Letzter Versuch zählt für Notenbonus 
+- Keine Tests nach der Deadline (vorbehaltlich Korrekturen von fehlerhaften Testcases) 
+- Erste Hausaufgabenabgabe nächsten Sonntag, 25.10.2026, Release heute 
+- Bitte mit Git vertraut machen: https://rogerdudler.github.io/git-guide/ 
+- Keine Teile einer Abgabe in Zulip teilen
+### [[zue_00_organisatorisches.pdf#page=4|Klausuren]]
 - 120 Minuten
 - Alles (deutsche) ist klausurrelevant
 - Hilfsmittel
