@@ -7,12 +7,19 @@
 
 ### Übungen
 - Beginn Tutorübungen Montag 19. Oktober
-- Wöchentliche Hausaufgaben via Artemis
+- Wöchentliche Hausaufgaben via Artemis auf Moodle, jeweils ab Freitag 16:00 Uhr
 - Kleine Gruppen geleitet von studentischen Tutoren (Inhalte unterschiedlich von Zentralübung)
 - Material über Moodle: http://moodle.tum.de/-> IN-0004
 (Lösungsvorschläge zum Übungsblatt eine Woche später)
-- Anmeldung in TUM-Online notige: BITTE SELBST ANMELDEN
-- 
+
+### Hausaufgaben
+- Anmeldung zu „Einführung in die Rechnerarchitektur (WS26/27)“1 über „Course Enrollment“ auf https://artemis.tum.de/courses/596 ab jetzt 
+- Normal eine Hausaufgabe pro Woche 
+- Release am Freitag 16:00, Abgabe Sonntag 23:59 Uhr (10 Tage Zeit)
+- 10 Punkte pro regulärer Hausaufgabe 
+- Notenbonus um eine Notenstufe (0.3/0.4) ab 80 % der erreichbaren Punkte 
+- Notenbonus nur auf bereits bestandene Klausuren 
+- Außerdem: unregelmäßige Bonusaufgaben und -punkte
 ### Klausuren
 - 120 Minuten
 - Alles (deutsche) ist klausurrelevant
