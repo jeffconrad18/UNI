@@ -12,7 +12,7 @@
 - Material über Moodle: http://moodle.tum.de/-> IN-0004
 (Lösungsvorschläge zum Übungsblatt eine Woche später)
 - Anmeldung in TUM-Online notige: BITTE SELBST ANMELDEN
-- Nähere Angaben: Freitag in der ZÜ
+- 
 ### Klausuren
 - 120 Minuten
 - Alles (deutsche) ist klausurrelevant
