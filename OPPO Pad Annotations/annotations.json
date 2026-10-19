@@ -1,0 +1,16 @@
+{
+  "annotations": {},
+  "preferences": {
+    "pen": {
+      "color": "#1f2937",
+      "opacity": 1,
+      "width": 2.4
+    },
+    "highlighter": {
+      "color": "#ffd43b",
+      "opacity": 0.32,
+      "width": 18
+    }
+  },
+  "version": 2
+}
