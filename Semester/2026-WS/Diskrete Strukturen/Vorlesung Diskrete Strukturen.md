@@ -139,5 +139,46 @@ John von Neumann definierte die natürlichen Zahlen $\mathbb{N}_0$ induktiv übe
 * $3 := \{0, 1, 2\} = \{\emptyset, \{\emptyset\}, \{\emptyset, \{\emptyset\}\}\}$
 * $\dots$ In von Neumanns Modell entsteht der Nachfolger einer bereits konstruierten Zahl $n$ durch die Vereinigung der Zahl mit der Menge, die diese Zahl enthält
 * $n := (n - 1) \cup \{n - 1\}$
+$\rightarrow$ Ausgehend von den **natürlichen Zahlen $\mathbb{N}_{0}$** lassen sich die weiteren Zahlbereiche $\mathbb{Z}$, $\mathbb{Q}$, $\mathbb{R}$ und $\mathbb{C}$ Schritt für Schritt mathematisch präzise konstruieren.
 
-$\mathbb{Z} = \mathbb{N}_0 * \mathbb{N}_0$
+### [[Diskrete Strukturen.pdf#page=49|Mengen: Definition durch Auflistung]]
+$[n] := \{1, 2, \dots, n\}$ für jedes $n \in \mathbb{N}_0$ mit $[0] := \emptyset$  Natürliche Zahlen von 1 bis n
+$\mathbb{Z}_n := \{0, 1, \dots, n - 1\}$ für jedes $n \in \mathbb{N}_0$ mit $\mathbb{Z}_0 := \emptyset$.
+
+Wertemenge der Funktion f wenn die Defintionsmenge A ist
+
+
+## Mengen: Definition durch Auflistung (Aufzählung)
+
+* **Def:** $x \in \{x_1, \dots, x_k\}$ **:gdw** $x$ kommt in $x_1, \dots, x_k$ vor.
+  ($x \notin \{x_1, \dots, x_k\}$ **gdw** $x$ kommt nicht in $x_1, \dots, x_k$ vor.)
+* Die öffnende bzw. schließende Mengenklammer $\{\ ,\ \}$ signalisieren dabei den Beginn bzw. das Ende der Mengendefinition, „$,$“ dient als Trennzeichen.
+* Im strikten Sinn muss die Liste vollständig ausgeschrieben werden, häufig wird aber eine angedeutete Auflistung zzgl. erklärendem Text akzeptiert:
+  * $\{\mathbb{N}, \mathbb{N}_0\}$ und $\{\mathbb{N}, \mathbb{N}_0, \mathbb{Z}\}$ sind Mengen.
+  * $\{\text{A}, \text{B}, \dots, \text{Z}, \text{a}, \text{b}, \dots, \text{z}\}$ Menge der Buchstaben des lateinischen Alphabets.
+  * $\{!, '', \#, \dots, \sim\}$ Menge der darstellbaren ASCII-Zeichen.
+* **Def:** $[n] := \{1, 2, \dots, n\}$ für jedes $n \in \mathbb{N}_0$ mit $[0] := \emptyset$.
+  $\mathbb{Z}_n := \{0, 1, \dots, n - 1\}$ für jedes $n \in \mathbb{N}_0$ mit $\mathbb{Z}_0 := \emptyset$.
+* ⚠️ „**:gdw**“ und „**:=**“ zur Betonung von Definitionen.
+  (Der Text auf der linken Seite steht für Text auf der rechten Seite.)
+
+---
+
+## Mengen: Definition durch Auswahl (Aussonderung) und Ersetzung
+* **Def:** $x \in \{y \in A \mid P(y)\}$ **:gdw** $x \in A$ und $P(x)$ sind wahr.
+  ($x \notin \{y \in A \mid P(y)\}$ **gdw** $x \notin A$ oder $P(x)$ falsch.)
+* **Def:** $x \in \{f(y) \mid y \in A\}$ **:gdw** $x = f(y)$ für ein $y \in A$.
+  ($x \notin \{f(y) \mid y \in A\}$ **gdw** $x \neq f(y)$ für alle $y \in A$.)
+  * Es ist wichtig, dass $A$ bereits wohldefiniert ist und für jedes Element $x \in A$ eindeutig bestimmt ist, ob es die Eigenschaft (Prädikat) $P$ besitzt oder nicht, bzw. dass die Konstruktion (Funktion) $f$ eindeutig definiert ist (siehe Russell).
+  * Statt „$\mid$“ wird auch „$:$“ verwendet (z.B. $\{x \in \mathbb{R} : |x| < 1\}$).
+  * Lies „$\{x \in A \mid P(x), Q(x)\}$“ als „$\{x \in A \mid P(x) \text{ und } Q(x)\}$“.
+  * Statt „$\{x \in A \mid P(x)\}$“ auch „$\{x \mid x \in A, P(x)\}$“.
+  * $x \in \{x \in A \mid P(x)\}$ **gdw** $x \in \{y \in A \mid P(y)\}$ (gebundene Umbenennung).
+* **Bsp:** $A := \{0, 1, 2, 3, 4\}$
+  $B := \{x \in A \mid x \leq 2\}$ oder auch $B := \{x \mid x \in A, x \leq 2\}$ ist $\{0, 1, 2\}$
+  $C := \{y \in A : y \text{ gerade}\}$ oder auch $C := \{y : y \in A, y \text{ gerade}\}$
+  $D := \{2x \mid x \in A\}$ {0,2,4,6,8}
+  $E := \{\{x\} \mid x \in A, x \leq 2\}$ {{0}, {1}, {2}}
+
+#### [[Diskrete Strukturen.pdf#page=51|Russellsche Antinomie]]
+Da Mengen Objekte sind, können sie selbst Elemente von Mengen sein.
