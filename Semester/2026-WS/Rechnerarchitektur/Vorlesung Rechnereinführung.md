@@ -72,16 +72,19 @@ Konsequenz
 ### [[era02-asm.pdf#page=42|Speichergrößen]]
 
 | Dezimal: Wert | Dezimal: Abk. | Dezimal: Metrik | Binär: Wert | Binär: Abk. | Binär: Metrik |
-| :--- | :--- | :--- | :--- | :--- | :--- |
-| 1 | B | byte | 1 | B | byte |
-| 1000 = 10³ | KB | kilobyte | 1024 = 2¹⁰ | KiB | kibibyte |
-| 1000² | MB | megabyte | 1024² | MiB | mebibyte |
-| 1000³ | GB | gigabyte | 1024³ | GiB | gibibyte |
-| 1000⁴ | TB | terabyte | 1024⁴ | TiB | tebibyte |
-| 1000⁵ | PB | petabyte | 1024⁵ | PiB | pebibyte |
-| 1000⁶ | EB | exabyte | 1024⁶ | EiB | exbibyte |
-| 1000⁷ | ZB | zettabyte | 1024⁷ | ZiB | zebibyte |
+| :------------ | :------------ | :-------------- | :---------- | :---------- | :------------ |
+| 1             | B             | byte            | 1           | B           | byte          |
+| 1000 = 10³    | KB            | kilobyte        | 1024 = 2¹⁰  | KiB         | kibibyte      |
+| 1000²         | MB            | megabyte        | 1024²       | MiB         | mebibyte      |
+| 1000³         | GB            | gigabyte        | 1024³       | GiB         | gibibyte      |
+| 1000⁴         | TB            | terabyte        | 1024⁴       | TiB         | tebibyte      |
+| 1000⁵         | PB            | petabyte        | 1024⁵       | PiB         | pebibyte      |
+| 1000⁶         | EB            | exabyte         | 1024⁶       | EiB         | exbibyte      |
+| 1000⁷         | ZB            | zettabyte       | 1024⁷       | ZiB         | zebibyte      |
 Ein Adressraum mit folgender Adresslänge hat folgende Größe:
 - 16 bit: 2¹⁶ = 64 KiB
 - 32 bit: 2³² = 4 GiB
 - 64 bit: 2⁶⁴ = 16 EiB
+Speicherzellen auf ISA Ebene sind üblicherweise mehrere Byte breit
+
+## Sprünge
