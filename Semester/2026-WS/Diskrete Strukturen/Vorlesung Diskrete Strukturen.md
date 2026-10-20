@@ -148,26 +148,24 @@ $\mathbb{Z}_n := \{0, 1, \dots, n - 1\}$ für jedes $n \in \mathbb{N}_0$ mit $\m
 Wertemenge der Funktion f wenn die Defintionsmenge A ist
 
 
-## Mengen: Definition durch Auflistung (Aufzählung)
-
-* **Def:** $x \in \{x_1, \dots, x_k\}$ **:gdw** $x$ kommt in $x_1, \dots, x_k$ vor.
-  ($x \notin \{x_1, \dots, x_k\}$ **gdw** $x$ kommt nicht in $x_1, \dots, x_k$ vor.)
+### [Mengen: Definition durch Auflistung](Diskrete%20Strukturen.pdf#page=49)
+$x \in \{x_1, \dots, x_k\}$ **:gdw** $x$ kommt in $x_1, \dots, x_k$ vor.
+($x \notin \{x_1, \dots, x_k\}$ **gdw** $x$ kommt nicht in $x_1, \dots, x_k$ vor.)
 * Die öffnende bzw. schließende Mengenklammer $\{\ ,\ \}$ signalisieren dabei den Beginn bzw. das Ende der Mengendefinition, „$,$“ dient als Trennzeichen.
 * Im strikten Sinn muss die Liste vollständig ausgeschrieben werden, häufig wird aber eine angedeutete Auflistung zzgl. erklärendem Text akzeptiert:
   * $\{\mathbb{N}, \mathbb{N}_0\}$ und $\{\mathbb{N}, \mathbb{N}_0, \mathbb{Z}\}$ sind Mengen.
   * $\{\text{A}, \text{B}, \dots, \text{Z}, \text{a}, \text{b}, \dots, \text{z}\}$ Menge der Buchstaben des lateinischen Alphabets.
   * $\{!, '', \#, \dots, \sim\}$ Menge der darstellbaren ASCII-Zeichen.
-* **Def:** $[n] := \{1, 2, \dots, n\}$ für jedes $n \in \mathbb{N}_0$ mit $[0] := \emptyset$.
-  $\mathbb{Z}_n := \{0, 1, \dots, n - 1\}$ für jedes $n \in \mathbb{N}_0$ mit $\mathbb{Z}_0 := \emptyset$.
+* $[n] := \{1, 2, \dots, n\}$ für jedes $n \in \mathbb{N}_0$ mit $[0] := \emptyset$. Natürliche Zahlen von $1$ bis $n$
+  $\mathbb{Z}_n := \{0, 1, \dots, n - 1\}$ für jedes $n \in \mathbb{N}_0$ mit $\mathbb{Z}_0 := \emptyset$. Ganze Zahlen von $0$ bis $n-1$
 * ⚠️ „**:gdw**“ und „**:=**“ zur Betonung von Definitionen.
   (Der Text auf der linken Seite steht für Text auf der rechten Seite.)
 
----
 
-## Mengen: Definition durch Auswahl (Aussonderung) und Ersetzung
-* **Def:** $x \in \{y \in A \mid P(y)\}$ **:gdw** $x \in A$ und $P(x)$ sind wahr.
+### [[Diskrete Strukturen.pdf#page=50|Mengen: Definition durch Auswahl (Aussonderung) und Ersetzung]]
+**Def:** $x \in \{y \in A \mid P(y)\}$ **:gdw** $x \in A$ und $P(x)$ sind wahr.
   ($x \notin \{y \in A \mid P(y)\}$ **gdw** $x \notin A$ oder $P(x)$ falsch.)
-* **Def:** $x \in \{f(y) \mid y \in A\}$ **:gdw** $x = f(y)$ für ein $y \in A$.
+**Def:** $x \in \{f(y) \mid y \in A\}$ **:gdw** $x = f(y)$ für ein $y \in A$.
   ($x \notin \{f(y) \mid y \in A\}$ **gdw** $x \neq f(y)$ für alle $y \in A$.)
   * Es ist wichtig, dass $A$ bereits wohldefiniert ist und für jedes Element $x \in A$ eindeutig bestimmt ist, ob es die Eigenschaft (Prädikat) $P$ besitzt oder nicht, bzw. dass die Konstruktion (Funktion) $f$ eindeutig definiert ist (siehe Russell).
   * Statt „$\mid$“ wird auch „$:$“ verwendet (z.B. $\{x \in \mathbb{R} : |x| < 1\}$).
