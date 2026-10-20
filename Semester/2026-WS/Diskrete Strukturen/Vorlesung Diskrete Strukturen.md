@@ -93,6 +93,10 @@ Wann immer 🅐 und 🅑 wahr sind, hat also jedes Objekt mit Eigenschaft $P$ au
 * **[[Diskrete Strukturen.pdf#page=36|Kontraposition:]]**
 	- „Falls $A$, dann $B$“ **gdw** „Falls nicht $B$, dann nicht $A$“.
 	- „Alle $x$ mit $P(x)$ sind $Q(x)$“ **gdw** „Alle $x$ mit nicht $Q(x)$ sind nicht $P(x)$“.
-* **Widerspruch:** Man zeigt $A$, indem man „falls nicht $A$, dann falsch“ zeigt.
+* **Widerspruch:** Man zeigt $A$, indem man „falls nicht $A$, dann falsch“ zeigt. [[Diskrete Strukturen.pdf#page=37|BSP]]
 * **Beweis für „$A$ genau dann, wenn $B$“:** Zeige „falls $A$, dann $B$“ und „falls $B$, dann $A$“ (oder nutze eine Kette von Äquivalenzen).
 * **Induktion**
+### Lemma von Euklid
+Ist $p$ eine Primzahl und teilt $p$ ein Produkt zweier ganzer Zahlen $a \cdot b$, so teilt $p$ mindestens einen der Faktoren (also $p \mid a$ oder $p \mid b$).
+**Beispiel für Beweis ($a^3$):**
+Teilt die Primzahl $5$ die Zahl $a^3 = a \cdot a^2$, so folgt daraus direkt, dass $5$ auch die Zahl $a$ teilen muss ($5 \mid a$).
