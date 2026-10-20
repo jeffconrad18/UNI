@@ -87,7 +87,6 @@ graph LR
 Wann immer 🅐 und 🅑 wahr sind, hat also jedes Objekt mit Eigenschaft $P$ auch die Eigenschaft $R$, d.h. 🅒 ist wahr unabhängig von der (subjektiven) Interpretation von $P, Q, R$ („bandersnatch“, „borogoves“, „slithy“).
 
 ![[Diskrete Strukturen.pdf#page=24&rect=17,14,342,206|Diskrete Strukturen, p.19]]
-
 [[Diskrete Strukturen.pdf#page=31|richtig, falsch, richtig, gültig]]
 ### Übliche Beweisstrategien
 * **[[Diskrete Strukturen.pdf#page=35|Direkter Beweis:]]** (z. B. für „Falls $A$, dann $B$“: Nimm $A$ an und zeige über logische Schlüsse, dass $B$ wahr ist).
