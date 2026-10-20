@@ -100,3 +100,33 @@ Wann immer 🅐 und 🅑 wahr sind, hat also jedes Objekt mit Eigenschaft $P$ au
 Ist $p$ eine Primzahl und teilt $p$ ein Produkt zweier ganzer Zahlen $a \cdot b$, so teilt $p$ mindestens einen der Faktoren (also $p \mid a$ oder $p \mid b$).
 **Beispiel für Beweis ($a^3$):**
 Teilt die Primzahl $5$ die Zahl $a^3 = a \cdot a^2$, so folgt daraus direkt, dass $5$ auch die Zahl $a$ teilen muss ($5 \mid a$).
+
+### [[Diskrete Strukturen.pdf#page=43|Notation für Junktoren und Quantoren]]
+
+| | formale Logik (DS) | | Python (C++) | C, C++, Java |
+| :--- | :--- | :--- | :--- | :--- |
+| wahr | (triviale Tautologie) | wahr, $\top$ | `True` | `true` |
+| falsch | (triviale Kontradiktion) | falsch, $\bot$ | `False` | `false` |
+| nicht | Negation | $\neg A$ | `not A` | `!A` |
+| oder | Disjunktion | $(A \lor B)$ | `A or B` | `A \|\| B` |
+| und | Konjunktion | $(A \land B)$ | `A and B` | `A && B` |
+| falls/wenn-dann | Konditional, Subjunktion | $(A \to B)$ | `not A or B` | `!A \|\| B` |
+| genau-dann-wenn | Bikonditional | $(A \leftrightarrow B)$ | `A == B` | `A == B` |
+| entweder-oder | exklusives Oder, (e)XOR | $(A \oplus B)$ | `A != B` | `A != B` |
+| alle | Allquantor | $\forall x F$ | `all` | |
+| einige | Existenzquantor | $\exists x F$ | `any` | |
+
+$\triangleright$ Die korrekte Verwendung von $\land, \lor, \neg, \to, \exists, \forall$ benötigt die Definition einer formalen Sprache einschließlich deren Semantik.
+
+
+## [[Diskrete Strukturen.pdf#page=45|Mengen]]
+Die Reihenfolge der Objekte, mehrfache Nennung (Mehrfachheiten) von Objekten, etc. spielen keine Rolle
+z.B. $\{0, 1\} = \{1, 0\} = \{0, 0, 1\}$
+
+### [[Diskrete Strukturen.pdf#page=47|Basisdefinitionen]]
+Gegeben ein Objekt $x$ und eine Menge $M$ kann nur einer von zwei komplementären Fällen eintreten:
+* das Objekt $x$ ist in der Menge $M$ enthalten, kurz $x \in M$.
+* das Objekt $x$ ist nicht in der Menge $M$ enthalten, kurz $x \notin M$.
+* Man liest $x \in M$ ($x \notin M$) auch als „$x$ ist (kein) Element von $M$“.
+Die leere Menge wird mit $\{\}$ oder $\emptyset$ bezeichnet:
+Man definiert, dass für jedes Objekt $x$ stets $x \notin \emptyset$ gilt. (Mit anderen Worten: Es gibt kein Objekt $x$ mit $x \in \emptyset$.)
