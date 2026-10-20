@@ -87,4 +87,9 @@ Ein Adressraum mit folgender Adresslänge hat folgende Größe:
 - 64 bit: 2⁶⁴ = 16 EiB
 Speicherzellen auf ISA Ebene sind üblicherweise mehrere Byte breit
 
-## Sprünge
+## [[era02-asm.pdf#page=51|Sprünge]]
+- Sprünge sind wie $if...else$ 
+- **Unbedingter Sprung:** Programm wird an anderer Stelle fortgesetzt
+- **Bedingter Sprung**: Sprung nur, wenn eine Bedingung erfüllt ist, z.B. equal, not equal, less than, greater than or equal 
+- [[era02-asm.pdf#page=55|Damit lassen sich auch *While* Schleifen implementieren]]
+- [[era02-asm.pdf#page=56|Alternative (z.B. x86) mit Statusregister]]: Extra Register in der ISA um Bedingungen zu speichern, basierend auf letzter arithmetischen Operation
