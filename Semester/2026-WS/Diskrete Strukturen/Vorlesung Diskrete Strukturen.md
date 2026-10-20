@@ -130,3 +130,14 @@ Gegeben ein Objekt $x$ und eine Menge $M$ kann nur einer von zwei komplementäre
 * Man liest $x \in M$ ($x \notin M$) auch als „$x$ ist (kein) Element von $M$“.
 Die leere Menge wird mit $\{\}$ oder $\emptyset$ bezeichnet:
 Man definiert, dass für jedes Objekt $x$ stets $x \notin \emptyset$ gilt. (Mit anderen Worten: Es gibt kein Objekt $x$ mit $x \in \emptyset$.)
+
+#### Von-Neumann-Modell für $\mathbb{N}_0$
+John von Neumann definierte die natürlichen Zahlen $\mathbb{N}_0$ induktiv über Mengen:
+* $0 := \emptyset$  $\rightarrow$ Zahl 0 wird als die leere Menge $\emptyset$ definiert
+* $1 := \{0\} = \{\emptyset\}$ $\rightarrow$ Zahl 1 wird als die Menge definiert, die die Zahl 0 (also die leere Menge $\emptyset$) als einziges Element enthält.
+* $2 := \{0, 1\} = \{\emptyset, \{\emptyset\}\}$
+* $3 := \{0, 1, 2\} = \{\emptyset, \{\emptyset\}, \{\emptyset, \{\emptyset\}\}\}$
+* $\dots$ In von Neumanns Modell entsteht der Nachfolger einer bereits konstruierten Zahl $n$ durch die Vereinigung der Zahl mit der Menge, die diese Zahl enthält
+* $n := (n - 1) \cup \{n - 1\}$
+
+$\mathbb{Z} = \mathbb{N}_0 * \mathbb{N}_0$

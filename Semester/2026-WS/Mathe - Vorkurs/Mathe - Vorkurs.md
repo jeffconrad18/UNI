@@ -41,10 +41,16 @@ $$f^{-1}(b) = \{a \in A \mid f(a) = b\}$$
 - **$\mathbb{N}_0$ (Natürliche Zahlen mit Null):** Alle natürlichen Zahlen einschließlich der Null.
     
     _Beispiele:_ $0, 1, 2, 100$
+- $\mathbb{Z}$ (Ganze Zahlen): Alle natürlichen Zahlen, ihre negativen Gegenzahlen sowie die Null.
+  
+    *Beispiele*: $-42, -2, -1, 0, 1, 2, 5$
     
 - **$\mathbb{Q}$ (Rationale Zahlen):** Alle Zahlen, die sich als Bruch zweier ganzer Zahlen $\frac{a}{b}$ (mit $b \neq 0$) darstellen lassen. Dazu gehören endliche und periodische Dezimalzahlen.
     
     _Beispiele:_ $\frac{1}{2}, -\frac{3}{4}, 5 = \frac{5}{1}, 0{,}75, 0{,}\bar{3}$
+    
+- $\mathbb{P}$ (**Primzahlen**): Natürliche Zahlen größer als 1, die genau zwei verschiedene Teiler haben (nur 1 und sich selbst).
+	*Beispiele*: $2, 3, 5, 7, 11, 13$
     
 - **Irrationale Zahlen:** Zahlen, die sich **nicht** als Bruch darstellen lassen. Ihre Dezimaldarstellung hat unendlich viele Nachkommastellen ohne periodisches Muster.
     
