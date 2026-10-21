@@ -18,3 +18,5 @@ Algorithmus ist terministisch, weil
 - **Termination**: Ergebnis nach endlicher Ausführung
 - **Determination**: Gleiche Inputs = Gleiche Ausgabe
 - **Determinismus**: Nächster Schritt ist eindeutig festgelegt
+
+## Syntax
