@@ -180,3 +180,5 @@ $x \in \{x_1, \dots, x_k\}$ **:gdw** $x$ kommt in $x_1, \dots, x_k$ vor.
 
 #### [[Diskrete Strukturen.pdf#page=51|Russellsche Antinomie]]
 Da Mengen Objekte sind, können sie selbst Elemente von Mengen sein.
+
+
