@@ -6,6 +6,9 @@
 ![[Pasted image 20261013165124.png|702]]
 
 - Konventionen sind wichtig um zu wissen, was gemeint ist z.B. **Darstellung negativer Zahlen mit Invertierung + 1**
+- Möglichkeiten für negative Zahlen Darstellung
+	- Erstes Bit gibt +/- an ABER Doppelnull, Rechnen schwieriger
+	- Invertierung
 - Darstellung Reale Zahlen: [[era01-intro.pdf#page=34|Gleitkommazahlen]]
 - Textzeichen durch Konvention: [[era01-intro.pdf#page=38|ASCII Tabelle]] | Unicode UTF-16
 ### [[era01-intro.pdf#page=40|Abstraktionsebenen]]

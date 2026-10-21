@@ -6,7 +6,7 @@
 - alle Folien online & Livestreams
 
 ### Übungen
-- Beginn Tutorübungen Montag 19. Oktober
+ - Slides Mi 10 Uhr: https://home.cit.tum.de/~vato
 - Wöchentliche Hausaufgaben via Artemis auf Moodle, jeweils ab Freitag 16:00 Uhr
 - Kleine Gruppen geleitet von studentischen Tutoren (Inhalte unterschiedlich von Zentralübung)
 - Material über Moodle: http://moodle.tum.de/-> IN-0004
