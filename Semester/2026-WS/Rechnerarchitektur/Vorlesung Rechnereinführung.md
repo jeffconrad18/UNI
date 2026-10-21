@@ -3,12 +3,14 @@
 - Dezimalsystem: Mensch
 - Binär: Rechner
 - Hexadezimal: Darstellung Computer für Menschen, Vorteil 1 Hex-Symbol = 4 Binär-Symbole
+- [[Mathe - Vorkurs|Formeln im Vorkurs]] 
 ![[Pasted image 20261013165124.png|702]]
 
 - Konventionen sind wichtig um zu wissen, was gemeint ist z.B. **Darstellung negativer Zahlen mit Invertierung + 1**
-- Möglichkeiten für negative Zahlen Darstellung
-	- Erstes Bit gibt +/- an ABER Doppelnull, Rechnen schwieriger
-	- Invertierung
+- **[[era01-intro.pdf#page=32|Möglichkeiten Darstellung für negative Zahlen]]**
+	- Vorzeichenbit: Erstes Bit gibt +/- an ABER Doppelnull, Rechnen schwieriger
+	- Einerkomplement: Invertierung ABER Rechnen schwieriger
+	- **Zweierkomplement**: Invertierung + 1 PERFEKT Grundrechenarten funktionieren gleich mit neg/pos Zahlen
 - Darstellung Reale Zahlen: [[era01-intro.pdf#page=34|Gleitkommazahlen]]
 - Textzeichen durch Konvention: [[era01-intro.pdf#page=38|ASCII Tabelle]] | Unicode UTF-16
 ### [[era01-intro.pdf#page=40|Abstraktionsebenen]]
