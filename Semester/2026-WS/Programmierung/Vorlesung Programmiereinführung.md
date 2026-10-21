@@ -39,3 +39,4 @@ $\mathbb{Z}_n := \{0, 1, \dots, n-1\}$ für jedes $n \in \mathbb{N}_0$ mit $\mat
 
 ⚠️ „**:gdw**“ und „$:=$“ zur Betonung von Definitionen.
 (Der Text auf der linken Seite steht für Text auf der rechten Seite.)
+
