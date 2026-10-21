@@ -20,3 +20,22 @@ Algorithmus ist terministisch, weil
 - **Determinismus**: Nächster Schritt ist eindeutig festgelegt
 
 ## Syntax
+- **Arithmetic expressions (`expr`)** → liefern einen Zahlenwert (`int`).
+- **Boolean expressions / Conditions (`cond`)** → liefern Wahrheitswerte (`true` oder `false`, z. B. Vergleiche wie `x > 0` oder Verknüpfungen mit `&&`, `||`, `!`).
+
+### Mengen: Definition durch Auflistung (Aufzählung)
+
+**[Def]** $x \in \{x_1, \dots, x_k\}$ **:gdw** $x$ kommt in $x_1, \dots, x_k$ vor.
+($x \notin \{x_1, \dots, x_k\}$ **gdw** $x$ kommt nicht in $x_1, \dots, x_k$ vor.)
+
+* Die öffnende bzw. schließende Mengenklammer $\{$, $\}$ signalisieren dabei den Beginn bzw. das Ende der Mengendefinition, „,“ dient als Trennzeichen.
+* Im strikten Sinn muss die Liste vollständig ausgeschrieben werden, häufig wird aber eine angedeutete Auflistung zzgl. erklärendem Text akzeptiert:
+  * $\{\mathbb{N}, \mathbb{N}_0\}$ und $\{\mathbb{N}, \mathbb{N}_0, \mathbb{Z}\}$ sind Mengen.
+  * $\{\text{A}, \text{B}, \dots, \text{Z}, \text{a}, \text{b}, \dots, \text{z}\}$ Menge der Buchstaben des lateinischen Alphabets.
+  * $\{!, ”, \#, \dots, \sim\}$ Menge der darstellbaren ASCII-Zeichen.
+
+**[Def]** $[n] := \{1, 2, \dots, n\}$ für jedes $n \in \mathbb{N}_0$ mit $[0] := \emptyset$.
+$\mathbb{Z}_n := \{0, 1, \dots, n-1\}$ für jedes $n \in \mathbb{N}_0$ mit $\mathbb{Z}_0 := \emptyset$.
+
+⚠️ „**:gdw**“ und „$:=$“ zur Betonung von Definitionen.
+(Der Text auf der linken Seite steht für Text auf der rechten Seite.)
