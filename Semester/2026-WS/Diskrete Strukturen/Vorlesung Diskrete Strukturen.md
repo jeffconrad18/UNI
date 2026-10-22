@@ -141,6 +141,7 @@ John von Neumann definierte die natürlichen Zahlen $\mathbb{N}_0$ induktiv übe
 * $n := (n - 1) \cup \{n - 1\}$
 $\rightarrow$ Ausgehend von den **natürlichen Zahlen $\mathbb{N}_{0}$** lassen sich die weiteren Zahlbereiche $\mathbb{Z}$, $\mathbb{Q}$, $\mathbb{R}$ und $\mathbb{C}$ Schritt für Schritt mathematisch präzise konstruieren.
 
+## Mengen
 ### [[Diskrete Strukturen.pdf#page=49|Mengen: Definition durch Auflistung]]
 $[n] := \{1, 2, \dots, n\}$ für jedes $n \in \mathbb{N}_0$ mit $[0] := \emptyset$  Natürliche Zahlen von 1 bis n
 $\mathbb{Z}_n := \{0, 1, \dots, n - 1\}$ für jedes $n \in \mathbb{N}_0$ mit $\mathbb{Z}_0 := \emptyset$.
@@ -285,3 +286,18 @@ Weiterhin gilt: $\bigcup \emptyset = \emptyset$ , aber $\bigcap \emptyset$ ist u
 Beispiele:
 $\bigcup \left\{ \{1, 4 \}, \{1, 3, 2 \}, \{1, 3 \} \right\} = \{1, 4 \} \cup \{1, 3, 2 \} \cup \{1, 3 \} = \{1, 2, 3, 4 \} \\ \bigcap \left\{ \{1, 4 \}, \{1, 3, 2 \}, \{1, 3 \} \right\} = \{1, 4 \} \cap \{1, 3, 2 \} \cap \{1, 3 \} = \{1 \}$
 
+### Partitionen
+Eine Partition einer Menge $M$ ist eine Menge $P \subseteq 2^{M}$ von disjunkten, nicht leeren Teilmengen von $M$ , deren Vereinigung $M$ ergibt:
+- Für alle $C,C^{\prime} \in P$ : entweder $C=C^{\prime}$ oder $C \cap C^{\prime}=\emptyset$ (paarweise disjunkt).
+- Für alle $C \in P$ : $C \neq \emptyset$ (nicht leer).
+- $M=\bigcup P$ (die Elemente von $P$ „überdecken“ $M$ ).
+
+Beispiel: Menge aller Partitionen von $\{1,2,3\}$
+$\left\{ \{ \{1,2,3\} \}, \{ \{1\}, \{2,3\} \}, \{ \{1,2\}, \{3\} \}, \{ \{1,3\}, \{2\} \}, \{ \{1\}, \{2\}, \{3\} \} \right\}$
+
+Einige mögliche Partitionen von $\mathbb{Z}$:$$\{ \mathbb{Z} \}, \quad \{ \{x\} \mid x \in \mathbb{Z} \}, \quad \{ 2\mathbb{Z}, 1+2\mathbb{Z} \}, \quad \{ 3\mathbb{Z}, 1+3\mathbb{Z}, 2+3\mathbb{Z} \}$$mit $r+n\mathbb{Z} := \{ r+nz \mid z \in \mathbb{Z} \}$ Im Allgemeinen für $n \in \mathbb{N}$:
+$$\{ r+n\mathbb{Z} \mid r \in \mathbb{Z}_{n} \}$$
+ist die Partition von $\mathbb{Z}$ nach dem Rest bei Division durch $n$ .
+
+### [[Diskrete Strukturen.pdf#page=65|Venn- und Karnaugh-Veitch-Diagramme]]
+![[Diskrete Strukturen.pdf#page=65&rect=74,37,298,217|Diskrete Strukturen, p.51]]**Karnaugh-Veitch-Diagramme** haben Darstellungs-Vorteil bei mehreren Mengen bzw. mehr als 3 Mengen. 
