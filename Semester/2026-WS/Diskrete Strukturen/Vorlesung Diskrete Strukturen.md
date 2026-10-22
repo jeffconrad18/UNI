@@ -181,4 +181,12 @@ $x \in \{x_1, \dots, x_k\}$ **:gdw** $x$ kommt in $x_1, \dots, x_k$ vor.
 #### [[Diskrete Strukturen.pdf#page=51|Russellsche Antinomie]]
 Da Mengen Objekte sind, können sie selbst Elemente von Mengen sein.
 
-
+### [[Diskrete Strukturen.pdf#page=52|Mengenoperationen und Beziehungen zwischen Mengen]]
+M1 ist Menge von M2 | M1 ist keine Teilmenge von M2 | M1 ist eine echte Teilmenge von M2 (M1 und M2 sind nicht identisch)
+Seien M_{1}, M_{2} beliebige (wohldefiniierte) Mengen. Dann:
+![[Diskrete Strukturen.pdf#page=53&rect=51,183,320,244|Diskrete Strukturen, p.45]]
+$\triangleright$ $M_{1} \subseteq M_{2}$ :gdw für jedes $x \in M_{1}$ gilt $x \in M_{2}$ ( $M_{1}$ ist eine Teilmenge von $M_{2}$ ).
+$M_{1} \not\subseteq M_{2}$ :gdw es gibt ein $x \in M_{1}$ mit $x \not\in M_{2}$ ( $M_{1}$ ist keine Teilmenge von $M_{2}$ ).
+$\triangleright$ $M_{1} \subseteq M_{2}$ :gdw $M_{1} \subseteq M_{2}$ und $M_{2} \not\subseteq M_{1}$ ( $M_{1}$ ist eine echte Teilmenge von $M_{2}$ ).
+$\triangleright$ $M_{1}=M_{2}$ :gdw $M_{1} \subseteq M_{2}$ und $M_{2} \subseteq M_{1}$ ( $M_{1}, M_{2}$ sind gleich).
+$M_{1} \neq M_{2}$ :gdw $M_{1} \not\subseteq M_{2}$ oder $M_{2} \not\subseteq M_{1}$ ( $M_{1}, M_{2}$ sind ungleich).![[Diskrete Strukturen.pdf#page=54&rect=30,113,342,180|Diskrete Strukturen, p.45]]

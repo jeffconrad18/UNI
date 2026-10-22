@@ -1,6 +1,6 @@
 ### Hausaufgaben
 Team:
-- bis Diskrete Strukuren
+- bis 30. Okt: Diskrete Strukuren
 
 Alleine:
 - bis 25. Okt: Rechnerarchitektur
