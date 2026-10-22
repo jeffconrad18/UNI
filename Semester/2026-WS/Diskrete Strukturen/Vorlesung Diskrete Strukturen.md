@@ -249,12 +249,14 @@ Man bezeichnet $|M|$ als die Kardinalität/Mächtigkeit von $M$.
 ### Potenzmenge $P(M)$
 $A \in P(M)$ **:gdw** $A \subseteq M.$
 
-Beispiel:
+Beispiele:
 - $M = \{a,b,c\}$ 
   $P(M)=\{\emptyset, \{a\}, \{b\}, \{c\}, \{a,b\}, \{a,c\}, \{b,c\}, \{a,b,c\}\}$ $\rightarrow$ Potenzmenge der Menge M
 - $M = \{\}=\emptyset$
   $P(M)=\{\emptyset\}$
+- $\begin{array}{l} \mathcal {P} (\emptyset) = 2 ^ {\{\}} = \{\emptyset \} \\ \mathcal {P} (\{\emptyset , \{\emptyset \}\}) = 2 ^ {\{\emptyset , \{\emptyset \}\}} = \{\emptyset , \{\emptyset \}, \{\{\emptyset \}\}, \{\emptyset , \{\emptyset \}\}\} \\ \end{array}$
 
+Potenzmenge von $P(M)$ ausrechnen:
 abc
 000
 001
@@ -267,3 +269,19 @@ Insgesamt $2^3$ Möglichkeiten, also Potenzmenge = $2^3 = 8$
 Für jede Menge M ist auch die Zusammenfassung $\mathcal{P} (M)$ genau aller Teilmengen von M wieder eine Menge: $A \in \mathcal{P} (M)$ :gdw $A \subseteq M$.
 - Häufig auch „ $2^{M}$“ statt „ $\mathcal{P} (M)$“.
 - Lies „ $\mathcal{P} (M)$“ bzw. „ $2^{M}$“ als „Potenzmenge von M“.
+
+- Sei $M \neq \emptyset$ . Fixiere beliebiges $x \in M$ .
+  Dann gilt: $2^{M}=2^{M-\{x\}} \cup \{ K \cup\{x\} \mid K \in 2^{M-\{x\}} \}$ .
+- Ist $M=\{x_{1}, \dots, x_{k}\}$ endlich mit $|M|=k$ , dann gilt $|2^{M}|=2^{|M|}=2^{k}$ : $A \subseteq M$ durch k Prädikate $(x_{i} \in A$ bzw. $x_{i} \notin A )$ eindeutig bestimmt.
+
+### [[Diskrete Strukturen.pdf#page=63|Mengen von Mengen: Vereinigung und Schnitt im Allgemeinen]]
+Für eine Menge $S$ , deren Elemente selbst Mengen sind , definiert man:
+$$\begin{array}{l} \bigcup S := \bigcup_ {M \in S} M := \{x \mid e s g i b t e i n M \in S m i t x \in M \} \\ \bigcap S := \bigcap_ {M \in S} M := \{x \mid f u r j e d e s M \in S g i l t x \in M \} \\ \end{array}$$
+Gilt $S = \{M _ {1}, \dots , M _ {k} \}$ für ein $k \in \mathbb {N}$ , dann schreibt man auch
+$$\bigcup_ {i = 1} ^ {k} M _ {i} := \bigcup S \quad \bigcap_ {i = 1} ^ {k} M _ {i} := \bigcap S$$
+Weiterhin gilt: $\bigcup \emptyset = \emptyset$ , aber $\bigcap \emptyset$ ist undefiniert.
+- Damit: $M _ {1} \cap M _ {2} = \bigcap \{M _ {1}, M _ {2} \}$ und $M _ {1} \cup M _ {2} = \bigcup \{M _ {1}, M _ {2} \}$
+  und für $S \neq \emptyset$ auch $\bigcap S = \{x \in \bigcup S \mid f u r j e d e s M \in S: x \in M \}$
+Beispiele:
+$\bigcup \left\{ \{1, 4 \}, \{1, 3, 2 \}, \{1, 3 \} \right\} = \{1, 4 \} \cup \{1, 3, 2 \} \cup \{1, 3 \} = \{1, 2, 3, 4 \} \\ \bigcap \left\{ \{1, 4 \}, \{1, 3, 2 \}, \{1, 3 \} \right\} = \{1, 4 \} \cap \{1, 3, 2 \} \cap \{1, 3 \} = \{1 \}$
+
