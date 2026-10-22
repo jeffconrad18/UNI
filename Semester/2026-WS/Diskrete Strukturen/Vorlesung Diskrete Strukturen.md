@@ -217,5 +217,22 @@ $\overline{M} \text{ erfordert ein fixiertes Universum, sonst ist es undefiniert
 Manche verwenden $\subset$ im Sinne von $\subset$ (vgl.:$<, \leq$), andere im Sinne von $\subset$
 Statt „$M_{1}\setminus M_{2}$“ wird häufig auch „$M_{1}-M_{2}$“ geschrieben.
 - $M_{1} \subset M_{2} \mathbf{gdw} M_{1} \cap M_{2}=M_{1} \mathbf{gdw} M_{1} \cup M_{2}=M_{2} \mathbf{gdw} M_{1} \setminus M_{2}=\emptyset.$
-  (Vgl.: $a \leq b \mathbf{gdw} \min(a,b)=a$ **gdw} \max(a,b)=b$ **gdw** $a-b \leq 0$)
+  (Vgl.: $a \leq b \mathbf{gdw} \min(a,b)=a$ **gdw** $\max(a,b)=b$ **gdw** $a-b \leq 0$)
 - $M_{1}=M_{2}$ **gdw** $M_{1}\Delta M_{2}=\emptyset.$ 
+[[Diskrete Strukturen.pdf#page=58|BSP]] dazu
+
+### [[Diskrete Strukturen.pdf#page=59|Vergleich grundlegender Konzepte von Mengen und Logik]]
+![[Diskrete Strukturen.pdf#page=59&rect=28,58,334,244&color=yellow|Diskrete Strukturen, p.46]]
+
+![[Diskrete Strukturen.pdf#page=60&rect=17,160,356,244|Diskrete Strukturen, p.46]]
+Fixiere nicht leeres Universum $\Omega$. Seien $P, Q$ Prädikate, die Teilmengen definieren.
+► „Alle $P$ sind $Q$“ **gdw** $\{x \in \Omega \mid P(x)\} \subseteq \{x \in \Omega \mid Q(x)\}$
+(Immer wahr, falls $\{x \in \Omega \mid P(x)\} = \emptyset$)
+► „Einige $P$ sind $Q$“ **gdw** $\{x \in \Omega \mid P(x)\} \cap \{x \in \Omega \mid Q(x)\} \neq \emptyset$
+► „Nicht alle $P$ sind $Q$“ **gdw** $\{x \in \Omega \mid P(x)\} \cap \{x \in \Omega \mid \text{nicht } Q(x)\} \neq \emptyset$
+**gdw** „Einige $P$ sind nicht $Q$“
+► „Kein $P$ ist $Q$“ **gdw** $\{x \in \Omega \mid P(x)\} \cap \{x \in \Omega \mid Q(x)\} = \emptyset$
+**gdw** $\{x \in \Omega \mid P(x)\} \subseteq \{x \in \Omega \mid \text{nicht } Q(x)\}$
+**gdw** „Alle $P$ sind nicht $Q$“
+
+Endliche Mengen, Kardinalit
