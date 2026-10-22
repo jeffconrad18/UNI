@@ -185,8 +185,37 @@ Da Mengen Objekte sind, können sie selbst Elemente von Mengen sein.
 M1 ist Menge von M2 | M1 ist keine Teilmenge von M2 | M1 ist eine echte Teilmenge von M2 (M1 und M2 sind nicht identisch)
 Seien M_{1}, M_{2} beliebige (wohldefiniierte) Mengen. Dann:
 ![[Diskrete Strukturen.pdf#page=53&rect=51,183,320,244|Diskrete Strukturen, p.45]]
-$\triangleright$ $M_{1} \subseteq M_{2}$ :gdw für jedes $x \in M_{1}$ gilt $x \in M_{2}$ ( $M_{1}$ ist eine Teilmenge von $M_{2}$ ).
+- $M_{1} \subseteq M_{2}$ :gdw für jedes $x \in M_{1}$ gilt $x \in M_{2}$ ( $M_{1}$ ist eine Teilmenge von $M_{2}$ ).
 $M_{1} \not\subseteq M_{2}$ :gdw es gibt ein $x \in M_{1}$ mit $x \not\in M_{2}$ ( $M_{1}$ ist keine Teilmenge von $M_{2}$ ).
-$\triangleright$ $M_{1} \subseteq M_{2}$ :gdw $M_{1} \subseteq M_{2}$ und $M_{2} \not\subseteq M_{1}$ ( $M_{1}$ ist eine echte Teilmenge von $M_{2}$ ).
-$\triangleright$ $M_{1}=M_{2}$ :gdw $M_{1} \subseteq M_{2}$ und $M_{2} \subseteq M_{1}$ ( $M_{1}, M_{2}$ sind gleich).
-$M_{1} \neq M_{2}$ :gdw $M_{1} \not\subseteq M_{2}$ oder $M_{2} \not\subseteq M_{1}$ ( $M_{1}, M_{2}$ sind ungleich).![[Diskrete Strukturen.pdf#page=54&rect=30,113,342,180|Diskrete Strukturen, p.45]]
+- $M_{1} \subseteq M_{2}$ :gdw $M_{1} \subseteq M_{2}$ und $M_{2} \not\subseteq M_{1}$ ( $M_{1}$ ist eine echte Teilmenge von $M_{2}$ ).
+- $ $M_{1}=M_{2}$ :gdw $M_{1} \subseteq M_{2}$ und $M_{2} \subseteq M_{1}$ ( $M_{1}, M_{2}$ sind gleich).
+$M_{1} \neq M_{2}$ :gdw $M_{1} \not\subseteq M_{2}$ oder $M_{2} \not\subseteq M_{1}$ ( $M_{1}, M_{2}$ sind ungleich).
+
+![[Diskrete Strukturen.pdf#page=54&rect=30,113,342,180|Diskrete Strukturen, p.45]]
+- $x \in M_{1} \cup M_{2}$ :gdw $x \in M_{1}$ oder $x \in M_{2}$ ($M_{1} \cup M_{2}$ ist die Vereinigung v. $M_{1}, M_{2}$).
+- $x \in M_{1} \cap M_{2}$ :gdw $x \in M_{1}$ und $x \in M_{2}$ ($M_{1} \cap M_{2}$ ist der Schnitt von $M_{1}, M_{2}$).
+- $x \in M_{1} \setminus M_{2}$ :gdw $x \in M_{1}$ und $x \notin M_{2}$ ($M_{1} \setminus M_{2}$ ist die Differenz $"$ $M_{1}$ ohne $M_{2} "$ ).
+- $x \in M_{1} \Delta M_{2}$ :gdw entweder $x \in M_{1}$ oder $x \in M_{2}$ ($M_{1} \Delta M_{2}$ ist ihre symmetrische Differenz).
+
+Schnitt, Differenz und symmetrische Differenz lassen sich auch mittels Auswahl (Aussonderung) und Vereinigung definieren:
+- $M_{1} \setminus M_{2} = \{x \in M_{1} \mid x \notin M_{2}\}$
+- $M_{1} \Delta M_{2} = (M_{1} \setminus M_{2}) \cup (M_{2} \setminus M_{1}) = \{x \in M_{1} \cup M_{2} \mid x \notin M_{1} \text{ oder } x \notin M_{2}\}.$
+- $M_{1} \cap M_{2} = \{x \in M_{1} \mid x \in M_{2}\} = \{x \in M_{2} \mid x \in M_{1}\} = (M_{1} \cup M_{2}) \setminus (M_{1} \Delta M_{2})$
+
+Diese Operationen sind nur „syntaktischer Zucker“: Sie vereinfachen die Definition von Mengen, benötigt werden nur Aussonderung und Vereinigung.
+
+*disjunct*: Zwei Mengen ohne Überschneidung
+
+**Abgeleitete Definitionen***:
+$\triangleright M_{1} \supseteq M_{2} :\mathbf{gdw} M_{2} \subseteq M_{1} \ (M_{1} \text{ ist eine Obermenge von } M_{2}).$
+(Analog $M_{1} \supsetneq M_{2}$ und $M_{1} \supsetneq M_{2}$.)
+$\triangleright M_{1}, M_{2} \text{ sind disjunkt :}\mathbf{gdw} M_{1} \cap M_{2} = \emptyset.$
+$\triangleright \text{Ist eine Menge } \Omega \ (\text{das } ",\text{Universum}", \text{die } ",\text{Grundmenge}") \ \text{fixiert}, \text{dann ist} \ \overline{M} := \Omega \setminus M \text{ das Komplement von } M \ (\text{bzgl. } \Omega).$
+$\overline{M} \text{ erfordert ein fixiertes Universum, sonst ist es undefiniert.}$
+
+**Bemerkungen:**
+Manche verwenden $\subset$ im Sinne von $\subset$ (vgl.:$<, \leq$), andere im Sinne von $\subset$
+Statt „$M_{1}\setminus M_{2}$“ wird häufig auch „$M_{1}-M_{2}$“ geschrieben.
+- $M_{1} \subset M_{2} \mathbf{gdw} M_{1} \cap M_{2}=M_{1} \mathbf{gdw} M_{1} \cup M_{2}=M_{2} \mathbf{gdw} M_{1} \setminus M_{2}=\emptyset.$
+  (Vgl.: $a \leq b \mathbf{gdw} \min(a,b)=a$ **gdw} \max(a,b)=b$ **gdw** $a-b \leq 0$)
+- $M_{1}=M_{2}$ **gdw** $M_{1}\Delta M_{2}=\emptyset.$ 
