@@ -235,4 +235,35 @@ Fixiere nicht leeres Universum $\Omega$. Seien $P, Q$ Prädikate, die Teilmengen
 **gdw** $\{x \in \Omega \mid P(x)\} \subseteq \{x \in \Omega \mid \text{nicht } Q(x)\}$
 **gdw** „Alle $P$ sind nicht $Q$“
 
-Endliche Mengen, Kardinalit
+### [[Diskrete Strukturen.pdf#page=61|Endliche Mengen, Kardinalit]]
+Eine Menge $M$ ist endlich **:gdw** es gibt ein $k \in \mathbb{N}_{0}$ und Objekte $x_{1}, x_{2}, \dots, x_{k}$ mit $M=\{x_{1}, x_{2}, \dots, x_{k}\}$.
+- Übliche Konvention: $\{x_{1}, x_{2}, \dots, x_{k}\}=\emptyset$ für $k=0$.
+- „unendlich“ kurz für „nicht endlich“.
+Ist $M$ endlich, so bezeichnet man mit $|M|$ die Anzahl der (paarweise) verschiedenen Objekte, welche Elemente von $M$ sind.
+D.h. $|M|$ ist die kleinste Zahl $k \in \mathbb{N}_{0}$ für welche es Objekte $x_{1}, x_{2}, \dots, x_{k}$ mit $M=\{x_{1}, x_{2}, \dots, x_{k}\}$ gibt.
+Bsp.: $|\{a,b,c\}|=|\{a,b,c,a,b,c\}|=|\{c,a,b,b,c,c\}|=|\{a,b\}\cup\{b,c\}|=3$.
+Man bezeichnet $|M|$ als die Kardinalität/Mächtigkeit von $M$.
+- Häufig schreibt man kurz „$|M| < \infty$“ bzw. „$|M|=\infty$“, falls $M$ endlich bzw. unendlich ist. Allerdings haben nicht alle unendlichen Mengen dieselbe Kardinalität.
+- Die allgemeine Definition der Kardinalität von unendlichen Mengen benötigt den Begriff der injektiven Funktion (später).
+
+### Potenzmenge $P(M)$
+$A \in P(M)$ **:gdw** $A \subseteq M.$
+
+Beispiel:
+- $M = \{a,b,c\}$ 
+  $P(M)=\{\emptyset, \{a\}, \{b\}, \{c\}, \{a,b\}, \{a,c\}, \{b,c\}, \{a,b,c\}\}$ $\rightarrow$ Potenzmenge der Menge M
+- $M = \{\}=\emptyset$
+  $P(M)=\{\emptyset\}$
+
+abc
+000
+001
+010
+011
+...
+Insgesamt $2^3$ Möglichkeiten, also Potenzmenge = $2^3 = 8$ 
+
+
+Für jede Menge M ist auch die Zusammenfassung $\mathcal{P} (M)$ genau aller Teilmengen von M wieder eine Menge: $A \in \mathcal{P} (M)$ :gdw $A \subseteq M$.
+- Häufig auch „ $2^{M}$“ statt „ $\mathcal{P} (M)$“.
+- Lies „ $\mathcal{P} (M)$“ bzw. „ $2^{M}$“ als „Potenzmenge von M“.
