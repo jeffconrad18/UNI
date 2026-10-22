@@ -301,3 +301,5 @@ ist die Partition von $\mathbb{Z}$ nach dem Rest bei Division durch $n$ .
 
 ### [[Diskrete Strukturen.pdf#page=65|Venn- und Karnaugh-Veitch-Diagramme]]
 ![[Diskrete Strukturen.pdf#page=65&rect=74,37,298,217|Diskrete Strukturen, p.51]]**Karnaugh-Veitch-Diagramme** haben Darstellungs-Vorteil bei mehreren Mengen bzw. mehr als 3 Mengen. 
+- [[Diskrete Strukturen.pdf#page=66|Visualisierung aller Fälle bei 4 allgemeinen Mengen]]
+- [[Diskrete Strukturen.pdf#page=67|Visualisierung aller Fälle bei 5 allgemeinen Mengen]]
