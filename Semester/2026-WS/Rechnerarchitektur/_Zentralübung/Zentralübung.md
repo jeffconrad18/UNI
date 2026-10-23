@@ -40,17 +40,15 @@ Wenn nichts da steht, dann ist es *signed*.
 - Arithmetische Rechtsshifts um $n$: Signed Division durch $2^n$ ABER Division rundet gegen $0$, aber mit Shifts gegen $- \infty$ 
 - Logische Rechtsshifts um $n$: Unsigned Division durch $2^n$
 - Logische Linksshifts um n: Unsigned Multiplikation mit $2^{n}$
-
 ### [[zue_02_riscv_handout.pdf#page=23|Pseudobefehle]]
 - Befehle, die nicht direkt als Maschinencode-Anweisung existieren
 - Vereinfachte Form, die dann in einen oder mehrere echte Maschinenbefehle umgesetzt wird
 - Vorteil: Lesbarer und einfacher zu programmieren
 - Beispiele:
-	- mv rd, rs ist Pseudobefehl für addi rd, rs, 0
-	- not rd, rs ist Pseudobefehl für xori rd, rs, -1
-	- neg rd, rs ist Pseudobefehl für sub rd, zero, rs
-	- li rd, imm ist Pseudobefehl, der 32-Bit-Konstanten lädt
-
+	- ``mv rd, rs`` ist Pseudobefehl für ``addi rd, rs, 0
+	- ``not rd, rs`` ist Pseudobefehl für ``xori rd, rs, -1
+	- ``neg rd, rs`` ist Pseudobefehl für ``sub rd, zero, rs
+	- ``li rd, imm`` ist Pseudobefehl, der 32-Bit-Konstanten lädt
 ### Häufige Fehler
 - Davon ausgehen, dass Register null sind
 - Vorzeichen bei Operationen beachten
