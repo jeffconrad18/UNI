@@ -4,19 +4,38 @@
 ## RISC-V
 - 32-Bit groß
 - 32 Stück, von `x0` bis `x31`
-- Konventionen für Verwendung, z.B. `x0` hat Constant value 0
+- Konventionen für Verwendung, z.B. `x0` hat Constant value $0$
 
 **Befehle**
 ![[zue_02_riscv_handout.pdf#page=6&rect=204,31,429,214|zue_02_riscv_handout, p.6]]
-
+- Bei Befehl + **i** : Register plus Wert (*Immediate* = direkt eine Zahl)
+	- `subi` gibt es nicht, weil man bei `addi` auch negative Werte addieren kann
 ### [[zue_02_riscv_handout.pdf#page=8|Zero- und Sign-Extension]]
 ![[zue_02_riscv_handout.pdf#page=8&rect=29,14,388,193|zue_02_riscv_handout, p.8]]
+Wenn nichts da steht, dann ist es *signed*.
 
+### Laden von großen Konstanten
+- Register hat 32 Bit
+- `upimm` hat 20 Bit
+- Zum Benutzen von großen Konstanten ``lui rd, upimm`` nötig
+- z.B. Zahl mit 32 Bit
+	- upimm hat 20 Bit - zuerst 20 Bits reinschreiben
+	- upimm wird zuerst um 12 nach links geshiftet - dann nach links verschieben
+	- Dann die unteren 12 Bit mit Nullen überschrieben
+	- dann mit `addi rd, rd, 0bZahlMitZwölfBits` restlichen 12 Bit nach `rd`  addieren
+	- >> in `rd` steht am Schluss ganze Zahl
+### [[zue_02_riscv_handout.pdf#page=12|Multiplikation]]
+- `mul` liefert nur die unteren 32 Bit  > richtiges Ergebnis, wenn es in 32 Bit passt
+- `mulh/mulhu/mulhsu` nur nötig, wenn das volle 64-Bit-Ergebnis gebraucht wird
+### [[zue_02_riscv_handout.pdf#page=15|Logische Befehle]]
+- Verfügbar mit/ohne 12-Bit-Immediates
+- *or* = `True`, wenn mindestens $1$
+- *and* = `True`, wenn beide $1$
+- *xor* = `True`, wenn genau eines $1$ 
 ### [[zue_02_riscv_handout.pdf#page=16|Bitmasken]]
 - and mit Maske: Bits an den 0-Stellen der Maske löschen (z.B. ersten vier Bits auf 0 setzen)
 - or mit Maske: Bits an den 1-Stellen der Maske setzen
 - xor mit Maske: Bits an den 1-Stellen der Maske invertieren
-
 ### [[zue_02_riscv_handout.pdf#page=17|Schiebebefehle]]
 - Arithmetische Rechtsshifts um $n$: Signed Division durch $2^n$ ABER Division rundet gegen $0$, aber mit Shifts gegen $- \infty$ 
 - Logische Rechtsshifts um $n$: Unsigned Division durch $2^n$
