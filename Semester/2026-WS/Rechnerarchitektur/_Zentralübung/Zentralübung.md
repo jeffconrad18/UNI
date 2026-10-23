@@ -13,6 +13,31 @@
 ![[zue_02_riscv_handout.pdf#page=8&rect=29,14,388,193|zue_02_riscv_handout, p.8]]
 
 ### [[zue_02_riscv_handout.pdf#page=16|Bitmasken]]
-▶ and mit Maske: Bits an den 0-Stellen der Maske löschen (z.B. ersten vier Bits auf 0 setzen)
-▶ or mit Maske: Bits an den 1-Stellen der Maske setzen
-▶ xor mit Maske: Bits an den 1-Stellen der Maske invertieren
+- and mit Maske: Bits an den 0-Stellen der Maske löschen (z.B. ersten vier Bits auf 0 setzen)
+- or mit Maske: Bits an den 1-Stellen der Maske setzen
+- xor mit Maske: Bits an den 1-Stellen der Maske invertieren
+
+### [[zue_02_riscv_handout.pdf#page=17|Schiebebefehle]]
+- Arithmetische Rechtsshifts um $n$: Signed Division durch $2^n$ ABER Division rundet gegen $0$, aber mit Shifts gegen $- \infty$ 
+- Logische Rechtsshifts um $n$: Unsigned Division durch $2^n$
+- Logische Linksshifts um n: Unsigned Multiplikation mit $2^{n}$
+
+### [[zue_02_riscv_handout.pdf#page=23|Pseudobefehle]]
+- Befehle, die nicht direkt als Maschinencode-Anweisung existieren
+- Vereinfachte Form, die dann in einen oder mehrere echte Maschinenbefehle umgesetzt wird
+- Vorteil: Lesbarer und einfacher zu programmieren
+- Beispiele:
+	- mv rd, rs ist Pseudobefehl für addi rd, rs, 0
+	- not rd, rs ist Pseudobefehl für xori rd, rs, -1
+	- neg rd, rs ist Pseudobefehl für sub rd, zero, rs
+	- li rd, imm ist Pseudobefehl, der 32-Bit-Konstanten lädt
+
+### Häufige Fehler
+- Davon ausgehen, dass Register null sind
+- Vorzeichen bei Operationen beachten
+- Zu wenig Gedanken vor dem Programmieren gemacht (wichtig bei Hausaufgabe 2)
+- Zu wenig Kommentare im Code
+- Schleifen einmal zu oft/zu wenig durchlaufen
+- Sign-Extension von Befehlen nicht beachtet (z. B. bei lb)
+- Ausblick: Calling Convention nicht einghalten
+- **Lösung**: Programme Befehl für Befehl durchgehen und Register überprüfen
